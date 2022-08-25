@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { AddCategory } from "./components/AddCategory";
 // API KEY LyvFDyDlgKw8xqONqZWMoukU5AOl5SYb
+//ESTE ES UN COMENTARIO DESDE W11 XD!!
 export const GifExpertApp = () => {
   const [categories, setCategories] = useState(["One Punch", "Barbies"]);
   const onAddCategory = () => {
