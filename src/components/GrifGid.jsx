@@ -1,4 +1,5 @@
 // API KEY LyvFDyDlgKw8xqONqZWMoukU5AOl5SYb
+import PropTypes from "prop-types";
 import { useFetchGifs } from "../hooks/useFetchGifs";
 import { GifItem } from "./GifItem";
 
@@ -17,4 +18,8 @@ export const GrifGid = ({ category }) => {
       </div>
     </>
   );
+};
+
+GrifGid.propTypes = {
+  category: PropTypes.string.isRequired,
 };
